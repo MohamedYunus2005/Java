@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class arrayproblem {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter Array Size : ");
+        int size = scan.nextInt();
+        int[] marks = new int[size];
+        System.out.println("Enter Values : ");
+        for (int i = 0; i <= size - 1; i++) {
+            marks[i] = scan.nextInt();
+        }
+    }
+}
