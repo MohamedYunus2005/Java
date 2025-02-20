@@ -20,7 +20,7 @@ public class internship {
             System.out.println("Wrong password");
             System.exit(0);
         }
-        String name = "Yunus";
+        String name = "Mohamed Yunus";
         System.out.println("Welcome " + name);
         System.out.println("Enter Travel Desination (From) : ");
         Scanner input = new Scanner(System.in);
